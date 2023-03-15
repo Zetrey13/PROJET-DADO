@@ -1,0 +1,65 @@
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px 25px 4px 25px;
+    height: 55px;
+}
+
+.header i {
+    font-size: 22px;
+}
+
+.headerBotom {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    background-color: #f6f6f6;
+    padding: 4px 25px 4px 25px;
+    border-bottom: 1px solid #e0e0e0;
+}
+
+.menuBotm {
+    display: none;
+}
+
+.searchMobile {
+    display: none;
+}
+
+@media screen and (max-width: 500px) {
+    .search {
+        display: none;
+    }
+    .menuBotm {
+        display: block;
+    }
+    .botomItem {
+        display: none;
+    }
+    .searchMobile {
+        display: block;
+    }
+    .spacer {
+        gap: 10px;
+    }
+    .headerBotom .ant-space {
+        gap: 8px !important;
+    }
+    #menuSubtitle {
+        display: none;
+    }
+    .ant-drawer-body {
+        width: 250px !important;
+    }
+}
+
+@media screen and (max-width: 780px) {
+    .header ant-input-affix-wrapper {
+        width: 300px;
+    }
+    .header .logo {
+        max-width: 100px;
+        max-height: 35px;
+    }
+}

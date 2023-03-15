@@ -1,0 +1,17 @@
+.swiper-slide {
+    width: 200px !important;
+}
+
+.mySwiper .swiper-pagination-progressbar {
+    background: #fff;
+    ;
+}
+
+.mySwiper .swiper-pagination-progressbar .swiper-pagination-progressbar-fill {
+    background: grey
+}
+
+.mySwiper {
+    width: 100%;
+    position: relative;
+}
